@@ -1,0 +1,13 @@
+{
+	"color": "0xba8cff",
+	"title": "SUBTEMBER!",
+	"author": {
+		"name": "Tanie Suby",
+		"icon_url": "https://taniesuby.eu/logo_sq.png",
+		"url": "https://taniesuby.eu"
+	},
+	"description": "My też obchodzimy subtember, a z kodem ```SUBTEMBER``` użytym podczas składania zamówienia otrzymasz 15% zniżki!",
+	"footer": {
+		"text": "Administracja TS"
+	}
+}

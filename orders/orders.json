@@ -1,0 +1,19 @@
+{
+  "orders": [
+    {
+      "metodaPlatnosci": "paymentProcessor",
+      "orderId": "internalIdSystem",
+      "idPlatnosci": "internalIdSystem",
+      "kwota": "productPrice",
+      "produkt": "productType",
+      "nickTwitch": "userNickname",
+      "channelTwitch": "<-",
+      "discordTag": "userDiscord",
+      "clientMail": "user.email",
+      "zaplacone": true,
+      "zrealizowane": true,
+      "opinia": "review",
+      "gwiazdki": 5
+    }
+  ]
+}

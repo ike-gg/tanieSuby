@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Basier Circle';
+}
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+    padding: 5px 10px;
+}
+input {
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-family: 'Basier Circle';
+    text-align: left;
+    color: black;
+    width: 100%;
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: 1px solid rgb(193, 193, 193);
+    font-size: 16px;
+    transition: 0.2s;
+}
+input::placeholder {
+    color: rgb(191, 191, 191);
+}
+input:focus {
+    box-shadow: 0px 0px 0px 3px #ae78ff5f;
+    border: 1px solid #954effac;
+    outline: 0 none;
+    transition: 0.2s;
+}
+button {
+    font-size: 15px;
+    background-color: #eee2ff;
+    color: #9c5aff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-sizing: border-box;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+}
+button:hover {
+    background-color: #cba8ff;
+    color: #6a00ff;
+}
+@keyframes hello {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    /*anim*/
+    animation-name: hello;
+    animation-duration: 0.4s;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+}
+.navbarContainer {
+    user-select: none;
+}
+.navbarCTitle {
+    display: inline-block;
+    color: rgb(172, 172, 172);
+    font-size: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-sizing: border-box;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.navbarCTitle:hover {
+    color: rgb(98, 98, 98);
+    background-color: rgb(251, 251, 251);
+}
+.selectedNavbar {
+    color: #9c5aff;
+    background-color: #eee2ff;
+}
+.selectedNavbar:hover {
+    color: #8737ff;
+}
+.logOut {
+    float: right;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    color: rgb(81, 81, 81);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-sizing: border-box;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.logOut:hover {
+    background-color: rgb(81, 81, 81);
+    color: rgb(246, 246, 246);
+}
+.mainMenu {
+    width: 100%;
+    margin: 40px 0;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(254, 254, 254);
+    border: 1px solid rgb(237, 237, 237);
+    box-shadow: 0px 0px 24px 0px rgb(240, 240, 240);
+    border-radius: 24px;
+}
+.mainMenuTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+}
+#createCoupon {
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 14px;
+}
+.createCouponBlock {
+    margin: 10px;
+}
+.orderContainer {
+    margin: 20px 0;
+}
+.completed {
+    background-color: rgb(224, 255, 227);
+    color: rgb(90, 189, 102);
+    border: 1px solid rgb(129, 206, 138);
+}
+.pending {
+    background-color: rgb(255, 250, 199);
+    color: rgb(189, 177, 90);
+    border: 1px solid rgb(206, 203, 129);
+}
+.waiting {
+    background-color: rgb(255, 232, 219);
+    color: rgb(189, 110, 67);
+    border: 1px solid rgb(255, 188, 130);
+}
+.closed {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.opened {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.orderTitle {
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.orderInformation {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    border-left: 1px solid rgb(227, 227, 227);
+    border-right: 1px solid rgb(227, 227, 227);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: grey;
+}
+.orderGrid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.orderGrid div {
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.071);
+}
+.wynik {
+    font-weight: 900;
+    color: black;
+}
+.selectCuponForProduct {
+    display: inline-block;
+    padding: 4px 7px;
+    background-color: #f2eaff;
+    color: #8031ff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    user-select: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.selectCuponForProduct:hover {
+    background-color: #e4d4ff;
+}
+.selectCuponForProduct label {
+    display: inline-block;
+    color: #8031ff;
+}
+.couponsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.couponElement {
+    margin: 10px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 8px;
+    padding: 15px;
+}
+.couponElementCode {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+.couponElementDiscount {
+    float: right;
+    font-size: 24px;
+    font-weight: 700;
+    color: #8031ff;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>TanieSuby.eu</title>
+    <link rel="icon" href="../logo_sq.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" CONTENT="Tańsze subskrypcje na platformie twitch.tv">
+    <link href="../fonts/stylesheet.css" rel="stylesheet">
+    <link href="../sky.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <script src="https://cdn.sellix.io/static/js/embed.js" ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div id="stars-container">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+    </div>
+    <div style="height: 80vh; margin: 0px auto;" class="feedbackContainer" data-aos="fade-up">
+        <div class="status"></div>
+        <div class="giveFeedback" style="display: none">
+            <span id="messageHere">test <b>test</b></span><br>
+            <textarea id="feedbackText" style="height: 100px" placeholder="To miejsce na Twoją opinię!"></textarea>
+            <div class="starContainer">
+                <img src="star.png" class="star" id="star1" data-star="1" draggable="false">
+                <img src="star.png" class="star" id="star2" data-star="2" draggable="false">
+                <img src="star.png" class="star" id="star3" data-star="3" draggable="false">
+                <img src="star.png" class="star" id="star4" data-star="4" draggable="false">
+                <img src="star.png" class="star" id="star5" data-star="5" draggable="false">
+            </div>
+            <button class="sendFeedback">Wyślij opinię</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
