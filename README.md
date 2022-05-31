@@ -1,7 +1,9 @@
 # TanieSuby (source code)
 
+## 👉 [Check demo](https://ike-gg.github.io/tanieSuby/)
+
 A website project that offered cheaper subs on twitch.
-This project handles the website, payments, order management and discord & bot server.
+This project handles 📄 the website, 💳 payments, 📰 order management and discord 🤖 bot & 👥 server.
 
 Everything was written in:
 
@@ -13,4 +15,8 @@ Everything was written in:
   - Node.js,
   - Express.
 
-This is one of my first projects, publishing now because the service has been closed.
+---
+
+❗ This is one of my first projects, publishing now because the service has been closed.
+
+---
