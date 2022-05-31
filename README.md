@@ -1,4 +1,4 @@
-# TanieSuby (source code)
+# TanieSuby GitHub Pages Branch.
 
 A website project that offered cheaper subs on twitch.
 This project handles the website, payments, order management and discord & bot server.
