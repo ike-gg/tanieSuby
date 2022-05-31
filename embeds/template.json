@@ -1,33 +1,33 @@
 {
-	"color": "0xba8cff",
-	"title": "Tytul embeda",
-	"url": "https://taniesuby.eu",
-	"author": {
-		"name": "Autor wiadomosci",
-		"icon_url": "https://taniesuby.eu/logo_sq.png",
-		"url": "https://taniesuby.eu"
-	},
-	"description": "Tutaj opis",
-	"thumbnail": {
-		"url": "https://taniesuby.eu/logo_sq.png"
-	},
-	"fields": [
-		{
-			"name": "Field name",
-			"value": "Field name",
-            "inline": true
-		},
-        {
-			"name": "Field name",
-			"value": "Field name",
-            "inline": true
-		}
-	],
-	"image": {
-		"url": "https://taniesuby.eu/logo_sq.png"
-	},
-	"footer": {
-		"text": "Stopka",
-		"icon_url": "https://taniesuby.eu/logo_sq.png"
-	}
+  "color": "0xba8cff",
+  "title": "Tytul embeda",
+  "url": "https://ike-gg.github.io/tanieSuby",
+  "author": {
+    "name": "Autor wiadomosci",
+    "icon_url": "https://ike-gg.github.io/tanieSuby/logo_sq.png",
+    "url": "https://ike-gg.github.io/tanieSuby"
+  },
+  "description": "Tutaj opis",
+  "thumbnail": {
+    "url": "https://ike-gg.github.io/tanieSuby/logo_sq.png"
+  },
+  "fields": [
+    {
+      "name": "Field name",
+      "value": "Field name",
+      "inline": true
+    },
+    {
+      "name": "Field name",
+      "value": "Field name",
+      "inline": true
+    }
+  ],
+  "image": {
+    "url": "https://ike-gg.github.io/tanieSuby/logo_sq.png"
+  },
+  "footer": {
+    "text": "Stopka",
+    "icon_url": "https://ike-gg.github.io/tanieSuby/logo_sq.png"
+  }
 }

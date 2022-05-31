@@ -78,7 +78,7 @@ app.use(
 );
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(force("https://taniesuby.eu"));
+app.use(force("https://ike-gg.github.io/tanieSuby"));
 
 app.use(express.static("public"));
 app.use(express.json({ limit: "1mb" }));
@@ -122,7 +122,7 @@ app.get("/adminPanel", (req, res) => {
   if (req.session.loggedin) {
     res.sendFile(path.join(__dirname + "/adminPanel/index.html"));
   } else {
-    res.redirect("https://taniesuby.eu/admin");
+    res.redirect("https://ike-gg.github.io/tanieSuby/admin");
   }
 });
 
@@ -157,7 +157,7 @@ app.post("/adminPanel", (req, res) => {
       });
     }
   } else {
-    res.redirect("https://taniesuby.eu/admin");
+    res.redirect("https://ike-gg.github.io/tanieSuby/admin");
   }
 });
 
@@ -870,22 +870,24 @@ TanieSubyBot.on("message", (message) => {
         if (message.content.includes("jaktodziala")) {
           message.channel.send({
             embed: JSONData,
-            files: ["https://taniesuby.eu/images/jaktodziala.png"],
+            files: [
+              "https://ike-gg.github.io/tanieSuby/images/jaktodziala.png",
+            ],
           });
         } else if (message.content.includes("tier1")) {
           message.channel.send({
             embed: JSONData,
-            files: ["https://taniesuby.eu/images/tier1.png"],
+            files: ["https://ike-gg.github.io/tanieSuby/images/tier1.png"],
           });
         } else if (message.content.includes("tier2")) {
           message.channel.send({
             embed: JSONData,
-            files: ["https://taniesuby.eu/images/tier2.png"],
+            files: ["https://ike-gg.github.io/tanieSuby/images/tier2.png"],
           });
         } else if (message.content.includes("tier3")) {
           message.channel.send({
             embed: JSONData,
-            files: ["https://taniesuby.eu/images/tier3.png"],
+            files: ["https://ike-gg.github.io/tanieSuby/images/tier3.png"],
           });
         } else {
           message.channel.send({ embed: JSONData });

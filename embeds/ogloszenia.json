@@ -1,13 +1,13 @@
 {
-	"color": "0xba8cff",
-    "author": {
-        "name": "Tanie suby",
-        "icon_url": "https://taniesuby.eu/logo_sq.png"
-    },
-    "title": "Nowy adres strony!",
-    "url": "https://taniesuby.eu",
-    "description": "Od dziś naszą stronę mozecie znaleźć pod adresem: **https://taniesuby.eu**!",
-    "footer": {
-        "text": "Administracja TS"
-    }
+  "color": "0xba8cff",
+  "author": {
+    "name": "Tanie suby",
+    "icon_url": "https://ike-gg.github.io/tanieSuby/logo_sq.png"
+  },
+  "title": "Nowy adres strony!",
+  "url": "https://ike-gg.github.io/tanieSuby",
+  "description": "Od dziś naszą stronę mozecie znaleźć pod adresem: **https://ike-gg.github.io/tanieSuby**!",
+  "footer": {
+    "text": "Administracja TS"
+  }
 }

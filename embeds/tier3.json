@@ -1,19 +1,19 @@
 {
-	"color": "0xba8cff",
-	"title": "3 Tier subskrypcji",
-    "url": "https://taniesuby.eu/#oferta",
-	"author": {
-        "name": "Tanie suby",
-        "icon_url": "https://taniesuby.eu/logo_sq.png"
-    },
-	"description": "Poniżej oferta odnośnie subskrypcji tieru trzeciego:",
-	"fields": [
-		{
-			"name": "1 Miesiąc",
-			"value": "50,00 PLN"
-		}
-	],
-	"footer": {
-		"text": "Zakup mozliwy na stronie 👉 https://taniesuby.eu/#oferta"
-	}
+  "color": "0xba8cff",
+  "title": "3 Tier subskrypcji",
+  "url": "https://ike-gg.github.io/tanieSuby/#oferta",
+  "author": {
+    "name": "Tanie suby",
+    "icon_url": "https://ike-gg.github.io/tanieSuby/logo_sq.png"
+  },
+  "description": "Poniżej oferta odnośnie subskrypcji tieru trzeciego:",
+  "fields": [
+    {
+      "name": "1 Miesiąc",
+      "value": "50,00 PLN"
+    }
+  ],
+  "footer": {
+    "text": "Zakup mozliwy na stronie 👉 https://ike-gg.github.io/tanieSuby/#oferta"
+  }
 }
